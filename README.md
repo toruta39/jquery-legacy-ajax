@@ -16,7 +16,17 @@ In your web page:
 <script src="dist/jquery-legacy-ajax.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+  $.legacyAjax({
+    url: '/path/to/your/api'
+    data: {
+      imagefile: $('#image-file-input'), // file selected in the input will be uploaded
+      imagename: $('#image-name-input').val() // primitive value can be passed as usual
+    }
+  }).then(function(res) {
+    console.log(res);
+  }, function(err) {
+    console.log(err.responseText);
+  });
 });
 </script>
 ```

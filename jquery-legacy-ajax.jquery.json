@@ -1,0 +1,28 @@
+{
+  "name": "jquery-legacy-ajax",
+  "title": "jQuery Legacy Ajax",
+  "description": "Enable posting form data including files asynchronously in legacy IE browsers without any Flash",
+  "version": "0.0.1",
+  "homepage": "https://github.com/toruta39/jquery-legacy-ajax.git",
+  "author": {
+    "name": "Joshua Zhang",
+    "url": "https://github.com/toruta39"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toruta39/jquery-legacy-ajax.git"
+  },
+  "bugs": "https://github.com/toruta39/jquery-legacy-ajax/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.10"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}
